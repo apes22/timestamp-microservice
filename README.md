@@ -1,8 +1,8 @@
-## timestamp-microservice
+# timestamp-microservice
 Timestamp Microservice  using Node.js and Express.js
 A Full Stack Javascript application
 
-# A FreeCodeCamp Back End Development Project
+## A FreeCodeCamp Back End Development Project
 
 Below are the specific user stories implemented for this project:
 
