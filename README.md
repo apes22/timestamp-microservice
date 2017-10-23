@@ -1,5 +1,5 @@
 # timestamp-microservice
-Timestamp Microservice  using Node.js and Express.js
+Timestamp Microservice  using Node.js and Express.js.
 A Full Stack Javascript application
 
 ## A FreeCodeCamp Back End Development Project
