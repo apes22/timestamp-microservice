@@ -1,0 +1,20 @@
+{
+	"name": "timestamp-microservice",
+	"version": "0.0.1",
+	"description": "Timestamp Microservice app using Node.js and Express.js.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"dependencies": {
+		"express": "^4.16.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/maribelduran/timestamp-microservice.git"
+	},
+	"author": "Maribel Duran"
+}
