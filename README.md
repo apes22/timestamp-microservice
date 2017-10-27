@@ -30,8 +30,8 @@ https://rust-mall.glitch.me/1450137600
 ## To Run Project Locally
 1. Fork this repo
 2. Clone the fork
-3. $ npm install
-4. $ node app.js
+3. `$ npm install`
+4. `$ node app.js`
 5. Visit http://localhost:3000/
 
 
