@@ -1,13 +1,38 @@
-# timestamp-microservice
-Timestamp Microservice  using Node.js and Express.js.
-A Full Stack Javascript application
+# Timestamp Microservice
 
-## A FreeCodeCamp Back End Development Project
+This service accepts a string as a parameter and will check whether it is either a human readable date or a Unix timestamp. If it is, it will return both the Unix timestamp and the natural language form of that date as a JSON object. If it is neither, it returns 'null' for those properties. 
 
-Below are the specific user stories implemented for this project:
+You can test it at [https://rust-mall.glitch.me/](https://rust-mall.glitch.me/)
 
-User Story: I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
+A Full Stack Javascript application using NodeJS and ExpressJS.
+An API Project for FreeCodeCamp.
 
-User Story: If it does, it returns both the Unix timestamp and the natural language form of that date.
+## Example Usage
 
-User Story: If it does not contain a date or Unix timestamp, it returns null for those properties.
+You can access the API directly through a browser or through a get ajax request.
+
+```
+https://rust-mall.glitch.me/December 15, 2015
+```
+```
+https://rust-mall.glitch.me/1450137600
+```
+
+## Example Output
+
+```javascript
+{ 
+  "unix": 1450137600, 
+  "natural": "December 15, 2015" 
+}
+```
+
+## To Run Project Locally
+1. Fork this repo
+2. Clone the fork
+3. $ npm install
+4. $ node app.js
+5. Visit http://localhost:3000/
+
+
+
