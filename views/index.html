@@ -11,8 +11,33 @@
 
    <body>
       <div class="container">
-         <h1>Timestamp Microservice app using Node.js and Express.js</h1>
+        <div class="well">
+          
+        
+         <h1>Timestamp Microservice</h1>
+        <hr>
+        <p>
+          This service accepts a string as a parameter and will check whether it is either a human readable date or a Unix timestamp. 
+          If it is, it will return both the Unix timestamp and the natural language form of that date as a JSON object. 
+          If it is neither, it returns 'null' for those properties.
+        </p>
+      
+        <h2>Example Usage</h2>
+        <p>You can access the API through a browser or by creating an ajax get request.</p>
+        <code href="https://rust-mall.glitch.me/December 15, 2015" target="_blank">https://rust-mall.glitch.me/December 15, 2015</code>
+        <br>
+        <code href="https://rust-mall.glitch.me/1450137600" target="_blank">https://rust-mall.glitch.me/1450137600</code>
+        <h2>Example output:</h2>
+        <code>{
+          <br>   "unix": 1450137600, 
+          <br>
+               "natural": "December 15, 2015"
+          <br>
+          }
+        </code>
+          </div> <!-- well -->
       </div> <!-- container -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
    </body>
 
 </html>
