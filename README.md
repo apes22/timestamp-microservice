@@ -4,7 +4,7 @@ This service accepts a string as a parameter and will check whether it is either
 
 You can test it at [https://rust-mall.glitch.me/](https://rust-mall.glitch.me/)
 
-A Full Stack Javascript application using NodeJS and ExpressJS.
+A Full Stack Javascript application built using NodeJS and Express.
 An API Project for FreeCodeCamp.
 
 ## Example Usage
